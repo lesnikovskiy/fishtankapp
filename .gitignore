@@ -1,0 +1,4 @@
+.vs
+src/FishTankApp/bin
+src/FishTankApp/node_modules
+src/FishTankApp/obj
