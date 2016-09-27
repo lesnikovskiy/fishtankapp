@@ -13,5 +13,20 @@
 	</div>
 </div>
 <script type="text/javascript">
-	
+	$(function() {
+		$.getJSON("@Model.DataUrl", function(data) {
+			Morris.Line({
+				element: 'chart',
+				data: data,
+				xkey: 'timeStamp',
+				ykeys: ['value'],
+				labels: ['value'],
+				resize: true,
+				dateFormat: function(d) {
+					var date = new Date(d);
+					return date.getHours() + ":" + date.getMinutes();
+				}
+			});
+		});
+	});
 </script>
