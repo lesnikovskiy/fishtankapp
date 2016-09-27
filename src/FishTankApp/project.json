@@ -16,7 +16,7 @@
 		"Microsoft.AspNetCore.Mvc": "1.0.0",
 		"Microsoft.AspNet.Mvc.TagHelpers": "6.0.0-*",
 		"Microsoft.Extensions.Logging": "1.0.0",
-		"Microsoft.AspNetCore.Razor.Tools":  "1.0.0-*"
+		"Microsoft.AspNet.Tooling.Razor": "1.0.0-rc1-final"
 	},
 
 	"tools": {
